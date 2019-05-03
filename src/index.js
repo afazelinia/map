@@ -25,6 +25,11 @@ class MapView extends Component {
     this.setState({ zoom });
   }
 
+  fitToBound(bounds){
+    this.map.fitBounds(bounds);
+    this.map.panToBounds(bounds);
+  }
+
   onGeometryChanged() {
     this.setState({zoom: this.map.getZoom()});
   }
