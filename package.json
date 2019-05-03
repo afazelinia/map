@@ -1,0 +1,89 @@
+{
+  "_args": [
+    [
+      "react-native-web-maps@0.2.0",
+      "D:\\work\\mine\\bazakchi-web-client"
+    ]
+  ],
+  "_from": "react-native-web-maps@0.2.0",
+  "_id": "react-native-web-maps@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-NapoturnD65xVci3AXAZfZR7Z84WXrwpbqQedEhB8vYxmuzw7PddOXJokwtT4UnRtwqh1cg3q3cNWYy3p2+4/w==",
+  "_location": "/react-native-web-maps",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-web-maps@0.2.0",
+    "name": "react-native-web-maps",
+    "escapedName": "react-native-web-maps",
+    "rawSpec": "0.2.0",
+    "saveSpec": null,
+    "fetchSpec": "0.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-web-maps/-/react-native-web-maps-0.2.0.tgz",
+  "_spec": "0.2.0",
+  "_where": "D:\\work\\mine\\bazakchi-web-client",
+  "author": {
+    "name": "Aurore Malherbes",
+    "email": "aurorem@bam.tech",
+    "url": "https://github.com/aurorem"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/react-native-web-community/react-native-web-maps/issues"
+  },
+  "dependencies": {
+    "react-google-maps": "^9.4.5"
+  },
+  "description": "React Native for Web implementation of react-native-maps",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^5.15.3",
+    "eslint-config-bambi": "^1.4.0",
+    "prettier": "^1.16.4",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-native-web": "^0.1.1",
+    "webpack": "^3.6.0"
+  },
+  "files": [
+    "dist",
+    "src",
+    "yarn.lock"
+  ],
+  "homepage": "https://github.com/react-native-web-community/react-native-web-maps#readme",
+  "keywords": [
+    "react-native",
+    "react-native-web",
+    "react-native-web-maps"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "main-es": "src/index.js",
+  "name": "react-native-web-maps",
+  "peerDependencies": {
+    "react-native-web": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/react-native-web-community/react-native-web-maps.git"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && babel src --out-dir dist",
+    "prepublish": "yarn build",
+    "test": "yarn test:lint",
+    "test:lint": "yarn eslint . --quiet"
+  },
+  "version": "0.2.0"
+}
